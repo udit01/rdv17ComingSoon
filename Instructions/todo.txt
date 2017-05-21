@@ -1,6 +1,8 @@
 TODO
 
-do the things in readme
+When in production we will change the bootstrap and jQuery to CDN links instead of local
+
+We also have to remove comments at last.
 
 apply the onHover for enlargment scale up the image
 
