@@ -1,0 +1,21 @@
+Effect1:
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+Effect2
+
+<img src="..." onmouseover="this.width='someWidth'; this.height='someHeight'" onmouseout="this.width='originalWidth'; this.height='originalHeight'">
+
+//the above is only for emergencies effect1 is working properly
+
+Effect3:
+
+http://stackoverflow.com/questions/18456169/show-enlarged-picture-when-mouse-hover-over-an-image
+
+Not wokring on my environment
+
+Effect4:
+https://codepen.io/larrygeams/pen/dBDLh
+
+Nice but irrelevent here I think

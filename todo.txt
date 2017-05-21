@@ -1,0 +1,11 @@
+TODO
+
+do the things in readme
+
+apply the onHover for enlargment scale up the image
+
+apply the shadows to the search box image and text area over it
+
+text imported dynamically by php srcipt
+
+
