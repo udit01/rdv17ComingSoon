@@ -24,17 +24,19 @@ body {
     position: absolute;
     height: auto;
     width: auto;
-    max-width: 130px;
+    max-width: 10%;
+    max-height: 21%;
     top:33%;
     left:31%;
-    z-index: 8;
+    z-index: 4;
 }
 
 .bohoChick1{
     position: absolute;
     height: auto;
     width: auto;
-    max-width: 60px;
+    max-width: 5%;
+    max-height: 24%;
     top:33%;
     left:43%;
     z-index: 5;
@@ -44,7 +46,8 @@ body {
     position: absolute;
     height: auto;
     width: auto;
-    max-width: 80px;
+    max-width: 6%;
+    max-height: 12.5%;
     top:43%;
     left:49%;
     z-index: 3;
@@ -54,7 +57,8 @@ body {
      position: absolute;
      height: auto;
      width: auto;
-     max-width: 55px;
+     max-width: 4.5%;
+     max-height: 25%;
      top:31%;
      left:58%;
      z-index: 5;
@@ -64,7 +68,8 @@ body {
     position: absolute;
     height: auto;
     width: auto;
-    max-width: 62px;
+    max-width: 4.5%;
+    max-height: 18%;
     top:62%;
     left:24%;
     z-index: 6;
@@ -72,7 +77,8 @@ body {
 
 .inputBox{
     position: absolute;
-    height: 49px;
+    height: 6.4%;
+    max-height: 6.5%;
     width: 43%;
     top: 62%;
     left: 27%;
@@ -94,7 +100,7 @@ body {
 .inputBox:focus {
     border: 1px solid #555;
     background-color: lightgreen;
-    height: 50px;
+    height: 6.5%;
     /*top:62%;*/
 }
 
@@ -102,7 +108,8 @@ body {
     position: absolute;
     height: auto;
     width: auto;
-    max-width: 100px;
+    max-width: 7.4%;
+    max-height: 7%;
     top:62%;
     left:68%;
     z-index: 6;
