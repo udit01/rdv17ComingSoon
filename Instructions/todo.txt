@@ -12,4 +12,7 @@ apply the shadows to the search box image and text area over it
 
 text imported dynamically by php srcipt
 
+constraint all the images from below instead of the top percentage
+
+
 

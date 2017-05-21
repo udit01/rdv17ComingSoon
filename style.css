@@ -26,7 +26,8 @@ body {
     width: auto;
     max-width: 10%;
     max-height: 21%;
-    top:33%;
+    /*top:33%;*/
+    bottom: 46%;
     left:31%;
     z-index: 4;
 }
@@ -37,7 +38,8 @@ body {
     width: auto;
     max-width: 5%;
     max-height: 24%;
-    top:33%;
+    /*top:33%;*/
+    bottom:43%;
     left:43%;
     z-index: 5;
 }
@@ -48,7 +50,8 @@ body {
     width: auto;
     max-width: 6%;
     max-height: 12.5%;
-    top:43%;
+    /*top:43%;*/
+    bottom: 44.5%;
     left:49%;
     z-index: 3;
 }
@@ -59,7 +62,8 @@ body {
      width: auto;
      max-width: 4.5%;
      max-height: 25%;
-     top:31%;
+     /*top:31%;*/
+     bottom:44% ;
      left:58%;
      z-index: 5;
  }
@@ -71,6 +75,7 @@ body {
     max-width: 4.5%;
     max-height: 18%;
     top:62%;
+    /*bottom:20%;*/
     left:24%;
     z-index: 6;
 }
@@ -81,10 +86,11 @@ body {
     max-height: 6.5%;
     width: 43%;
     top: 62%;
+    bottom: 31%;
     left: 27%;
     z-index: 5;
     opacity: .5;
-    padding: 15px 15px;
+    padding: 1.5% 14%;
     background-color: white;
     /*border: 1px solid black;*/
     border-radius:0px;
@@ -111,6 +117,7 @@ body {
     max-width: 7.4%;
     max-height: 7%;
     top:62%;
+    /*bottom:31%;*/
     left:68%;
     z-index: 6;
 }
