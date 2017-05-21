@@ -1,27 +1,67 @@
 body {
-    /* Location of the image */
+
     background-image: url(images/Background-01.jpg);
-
-    /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
-
-    /* Background image doesn't tile */
     background-repeat: no-repeat;
-
-    /* Background image is fixed in the viewport so that it doesn't move when
-       the content's height is greater than the image's height */
     background-attachment: fixed;
-
-    /* This is what makes the background image rescale based
-       on the container's size */
     background-size: cover;
-
-    /* Set a background color that will be displayed
-       while the background image is loading */
-    background-color: blue;
+    background-color: lightblue;
+}
+.enlarge{
+    transition: all .2s ease-in-out;
 }
 
- For mobile devices
+.enlarge:hover{
+    transform: scale(1.1);
+}
+
+.animate{
+
+}
+
+
+.tent{
+    position: absolute;
+    height: auto;
+    width: auto;
+    max-width: 130px;
+    top:35%;
+    right:60%;
+    z-index: 8;
+}
+
+.bohoChick1{
+    position: absolute;
+    height: auto;
+    width: auto;
+    max-width: 60px;
+    top:35%;
+    right:55%;
+    z-index: 5;
+}
+
+.fire{
+    position: absolute;
+    height: auto;
+    width: auto;
+    max-width: 80px;
+    top:45%;
+    right:47%;
+    z-index: 3;
+}
+
+.bohoChick2{
+     position: absolute;
+     height: auto;
+     width: auto;
+     max-width: 55px;
+     top:35%;
+     right:40%;
+     z-index: 5;
+ }
+
+
+ /*For mobile devices*/
 @media only screen and (max-width: 767px) {
     body {
         /* The file size of this background image is significantly smaller
