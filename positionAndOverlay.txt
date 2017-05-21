@@ -1,0 +1,15 @@
+Approximately the same examles you need?
+Use to create text over graphic search bar and decrease opacity:
+https://www.w3schools.com/css/css_positioning.asp
+
+
+Use this to position the fire and the girls:
+https://www.w3schools.com/cssref/pr_background-position.asp
+
+
+In case of emergencies :
+<td width="113" height="214" valign="top"> 
+    <div style="position:relative;">
+      <img style="position:absolute; top:xx px; bottom: xx px" src="images/footer.png"  width="113" height="161"/>
+    </div>
+</td>
