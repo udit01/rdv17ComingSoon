@@ -4,22 +4,22 @@
 
 
 $(document).ready(function() {
-    $("#fireAnimate").hover(
-        function() {
-            $(this).attr("src", "images/fire-animated.gif");
-        },
-        function() {
-            $(this).attr("src", "images/fire-static.png");
-        }
-    );
-
-    $("#tentAnimate").hover(
-        function() {
-            $(this).attr("src", "images/tent-animated.gif");
-        },
-        function() {
-            $(this).attr("src", "images/tent-static.svg");
-        }
-    );
+    // $("#fireAnimate").hover(
+    //     function() {
+    //         $(this).attr("src", "images/fire-animated.gif");
+    //     },
+    //     function() {
+    //         $(this).attr("src", "images/fire-static.png");
+    //     }
+    // );
+    //
+    // $("#tentAnimate").hover(
+    //     function() {
+    //         $(this).attr("src", "images/tent-animated.gif");
+    //     },
+    //     function() {
+    //         $(this).attr("src", "images/tent-static.svg");
+    //     }
+    // );
 
 });

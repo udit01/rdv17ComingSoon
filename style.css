@@ -1,6 +1,6 @@
 body {
 
-    background-image: url(images/Background-01.jpg);
+    /*background-image: url(images/Background-01.jpg);*/
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,114 +20,114 @@ body {
 }
 
 
-.tent{
-    position: absolute;
-    height: auto;
-    width: auto;
-    max-width: 10%;
-    max-height: 21%;
-    /*top:33%;*/
-    bottom: 46%;
-    left:31%;
-    z-index: 4;
-}
+/*.tent{*/
+    /*position: absolute;*/
+    /*height: auto;*/
+    /*width: auto;*/
+    /*max-width: 10%;*/
+    /*max-height: 21%;*/
+    /*!*top:33%;*!*/
+    /*bottom: 46%;*/
+    /*left:31%;*/
+    /*z-index: 4;*/
+/*}*/
 
-.bohoChick1{
-    position: absolute;
-    height: auto;
-    width: auto;
-    max-width: 5%;
-    max-height: 24%;
-    /*top:33%;*/
-    bottom:43%;
-    left:43%;
-    z-index: 5;
-}
+/*.bohoChick1{*/
+    /*position: absolute;*/
+    /*height: auto;*/
+    /*width: auto;*/
+    /*max-width: 5%;*/
+    /*max-height: 24%;*/
+    /*!*top:33%;*!*/
+    /*bottom:43%;*/
+    /*left:43%;*/
+    /*z-index: 5;*/
+/*}*/
 
-.fire{
-    position: absolute;
-    height: auto;
-    width: auto;
-    max-width: 6%;
-    max-height: 12.5%;
-    /*top:43%;*/
-    bottom: 44.5%;
-    left:49%;
-    z-index: 3;
-}
+/*.fire{*/
+    /*position: absolute;*/
+    /*height: auto;*/
+    /*width: auto;*/
+    /*max-width: 6%;*/
+    /*max-height: 12.5%;*/
+    /*!*top:43%;*!*/
+    /*bottom: 44.5%;*/
+    /*left:49%;*/
+    /*z-index: 3;*/
+/*}*/
 
-.bohoChick2{
-     position: absolute;
-     height: auto;
-     width: auto;
-     max-width: 4.5%;
-     max-height: 25%;
-     /*top:31%;*/
-     bottom:44% ;
-     left:58%;
-     z-index: 5;
- }
+/*.bohoChick2{*/
+     /*position: absolute;*/
+     /*height: auto;*/
+     /*width: auto;*/
+     /*max-width: 4.5%;*/
+     /*max-height: 25%;*/
+     /*!*top:31%;*!*/
+     /*bottom:44% ;*/
+     /*left:58%;*/
+     /*z-index: 5;*/
+ /*}*/
 
-.dreamCatcher{
-    position: absolute;
-    height: auto;
-    width: auto;
-    max-width: 4.5%;
-    max-height: 18%;
-    top:62%;
-    /*bottom:20%;*/
-    left:24%;
-    z-index: 6;
-}
-
-.inputBox{
-    position: absolute;
-    height: 6.4%;
-    max-height: 6.5%;
-    width: 43%;
-    top: 62%;
-    bottom: 31%;
-    left: 27%;
-    z-index: 5;
-    opacity: .5;
-    padding: 1.5% 14%;
-    background-color: white;
-    /*border: 1px solid black;*/
-    border-radius:0px;
-    color: blueviolet ;
-
-    /*-webkit-transition: top 0.4s ease-in-out;*/
-    -webkit-transition: height 0.4s ease-in-out;
-    transition: height 0.4s ease-in-out;
-    /*transition: top 0.4s ease-in-out;*/
-    resize: none;
-
-}
-.inputBox:focus {
-    border: 1px solid #555;
-    background-color: lightgreen;
-    height: 6.5%;
+/*.dreamCatcher{*/
+    /*position: absolute;*/
+    /*height: auto;*/
+    /*width: auto;*/
+    /*max-width: 4.5%;*/
+    /*max-height: 18%;*/
     /*top:62%;*/
-}
+    /*!*bottom:20%;*!*/
+    /*left:24%;*/
+    /*z-index: 6;*/
+/*}*/
 
-.submitButton{
-    position: absolute;
-    height: auto;
-    width: auto;
-    max-width: 7.4%;
-    max-height: 7%;
-    top:62%;
-    /*bottom:31%;*/
-    left:68%;
-    z-index: 6;
-}
+/*.inputBox{*/
+    /*position: absolute;*/
+    /*height: 6.4%;*/
+    /*max-height: 6.5%;*/
+    /*width: 43%;*/
+    /*top: 62%;*/
+    /*bottom: 31%;*/
+    /*left: 27%;*/
+    /*z-index: 5;*/
+    /*opacity: .5;*/
+    /*padding: 1.5% 14%;*/
+    /*background-color: white;*/
+    /*!*border: 1px solid black;*!*/
+    /*border-radius:0px;*/
+    /*color: blueviolet ;*/
+
+    /*!*-webkit-transition: top 0.4s ease-in-out;*!*/
+    /*-webkit-transition: height 0.4s ease-in-out;*/
+    /*transition: height 0.4s ease-in-out;*/
+    /*!*transition: top 0.4s ease-in-out;*!*/
+    /*resize: none;*/
+
+/*}*/
+/*.inputBox:focus {*/
+    /*border: 1px solid #555;*/
+    /*background-color: lightgreen;*/
+    /*height: 6.5%;*/
+    /*!*top:62%;*!*/
+/*}*/
+
+/*.submitButton{*/
+    /*position: absolute;*/
+    /*height: auto;*/
+    /*width: auto;*/
+    /*max-width: 7.4%;*/
+    /*max-height: 7%;*/
+    /*top:62%;*/
+    /*!*bottom:31%;*!*/
+    /*left:68%;*/
+    /*z-index: 6;*/
+/*}*/
 
 
- /*For mobile devices*/
-@media only screen and (max-width: 767px) {
-    body {
-        /* The file size of this background image is significantly smaller
-         * to improve page load speed on mobile internet connections */
-        background-image: url(images/Background-forMobileDevices.jpg);
-    }
+ /*!*For mobile devices*!*/
+/*@media only screen and (max-width: 767px) {*/
+    /*body {*/
+        /*!* The file size of this background image is significantly smaller*/
+         /** to improve page load speed on mobile internet connections *!*/
+        /*background-image: url(images/Background-forMobileDevices.jpg);*/
+    /*}*/
 }
