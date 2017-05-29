@@ -1,12 +1,18 @@
 body {
 
-    /*background-image: url(images/Background-01.jpg);*/
+    /*background-image: url(images/Reference-01.png);*/
+    /*To change the above line afterwords to give only the background*/
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-color: lightblue;
+    margin: 0;
+    background: #000;
+    z-index: 0;
 }
+
+
 .enlarge{
     transition: all .2s ease-in-out;
 }
@@ -15,9 +21,43 @@ body {
     transform: scale(1.1);
 }
 
-.animate{
-
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+    opacity:.9;
 }
+#backgroundImage{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+    opacity:.5;
+}
+.stopfade {
+    opacity: .5;
+}
+
+
+/*.animate{*/
+
+/*}*/
 
 
 /*.tent{*/
@@ -123,11 +163,11 @@ body {
 /*}*/
 
 
- /*!*For mobile devices*!*/
+ /*For mobile devices*/
 /*@media only screen and (max-width: 767px) {*/
     /*body {*/
         /*!* The file size of this background image is significantly smaller*/
          /** to improve page load speed on mobile internet connections *!*/
         /*background-image: url(images/Background-forMobileDevices.jpg);*/
     /*}*/
-}
+/*}*/
