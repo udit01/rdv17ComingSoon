@@ -5,48 +5,43 @@
 
 var bgvid = document.getElementById("bgvid");
 var bgimg = document.getElementById("backgroundImage");
-var endText = document
-
-// vid.addEventListener('ended', function()
-// {
-// // only functional if "loop" is removed
-//     vid.pause();
-// // to capture IE10
-//     vidFade();
-// });
-
-bgvid.addEventListener('ended',endHandler);
-bgvid.addEventListener('loadstart',loadingPageDisplay);
-bgvid.addEventListener('loadeddata',loadingPageEnd);
+var endText = document.getElementById("endText");
+var rdvLogo = document.getElementById("rdvLogo");
 
 
-function loadingPageDisplay(e)
-{
+bgvid.addEventListener('loadstart', loadingPageDisplay);
+bgvid.addEventListener('loadeddata', loadingPageEnd);
+
+bgvid.addEventListener('ended', endHandler);
+
+function loadingPageDisplay(e) {
     console.log("loading");
-    options = document.querySelectorAll(".navigation")
-    for (var i = 0, len = options.length; i < len; i++)
-    {
+    options = document.querySelectorAll(".navigation");
+    for (var i = 0, len = options.length; i < len; i++) {
         options[i].style.display = "none";
     }
 }
 
-function loadingPageEnd(e)
-{
+function loadingPageEnd(e) {
     console.log("loading end");
     options = document.querySelectorAll(".navigation");
-    for (var i = 0, len = options.length; i < len; i++)
-    {
+    for (var i = 0, len = options.length; i < len; i++) {
         options[i].style.display = "block";
     }
-    document.getElementById("loading_page").style.display="none";
+    document.getElementById("loading_page").style.display = "none";
 
 }
 
 function endHandler(e) {
-    bgvid.pause();
+    console.log("ended function is called");
+    rdvLogo.style.display = "block";
+    // rdvLogo.fadeIn;
 
+    console.log("");
+    rdvLogo.style.top = "10%";
+    console.log("");
+    endText.style.display = "block";
 }
-
 
 // $(document).ready(function() {
 //     $("#fireAnimate").hover(

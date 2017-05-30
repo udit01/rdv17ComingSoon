@@ -12,6 +12,11 @@ body {
     z-index: 0;
 }
 
+.horizontalCenter{
+    width: 100%;
+    margin:auto;
+
+}
 
 .enlarge{
     transition: all .2s ease-in-out;
@@ -58,6 +63,7 @@ video {
 }
 
 #rdvLogo{
+    display: none;
     position: absolute;
     height: auto;
     width: auto;
@@ -66,6 +72,20 @@ video {
     top:24%;
     left:26%;
     z-index: 4;
+
+}
+#endText{
+    display: none;
+    position: absolute;
+    height: auto;
+    width: auto;
+    margin:auto;
+    max-width: 75%;
+    /*max-height: 54%;*/
+    top:35%;
+    /*bottom: 46%;*/
+    left:13%;
+    z-index: 13;
 }
 
 .logoBase{
