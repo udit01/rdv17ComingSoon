@@ -4,19 +4,32 @@
 
 
 var vid = document.getElementById("bgvid");
+var bgimg = document.getElementById("backgroundImage");
 
-function vidFade() {
-    vid.classList.add("stopfade");
+
+function Front() {
+    vid.classList.add("videoFade");
+    bgimg.classList.add("imageSurface");
+}
+function renderIcons() {
+    //shift the rdv logo upwards and enter text here
+
 }
 
-vid.addEventListener('ended', function()
-{
-// only functional if "loop" is removed
-    vid.pause();
-// to capture IE10
-    vidFade();
-});
+// vid.addEventListener('ended', function()
+// {
+// // only functional if "loop" is removed
+//     vid.pause();
+// // to capture IE10
+//     vidFade();
+// });
 
+document.getElementById('myVideo').addEventListener('ended',endHandler);
+function endHandler(e) {
+    vid.pause();
+    imageFront();
+    renderIcons();
+}
 
 
 // $(document).ready(function() {

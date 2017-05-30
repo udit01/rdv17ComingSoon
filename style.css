@@ -50,8 +50,45 @@ video {
     transition: 1s opacity;
     opacity:.5;
 }
-.stopfade {
-    opacity: .5;
+.imageSurface{
+    opacity: 1;
+}
+.videofade {
+    opacity: .1;
+}
+
+#rdvLogo{
+    position: absolute;
+    height: auto;
+    width: auto;
+    max-width: 57%;
+    /*max-height: 30%;*/
+    top:24%;
+    left:26%;
+    z-index: 4;
+}
+
+.logoBase{
+    position: absolute;
+    height: auto;
+    width: auto;
+    max-width: 21%;
+    max-height: 24%;
+    top:75%;
+    /*bottom: 46%;*/
+    /*left:31%;*/
+    z-index: 5;
+}
+
+#brochure{
+    left:9%;
+}
+#afterMovie{
+    left:41%;
+
+}
+#contactUs{
+    left:76%;
 }
 
 
