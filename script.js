@@ -6,6 +6,7 @@
 var bgvid = document.getElementById("bgvid");
 var bgimg = document.getElementById("backgroundImage");
 var endText = document
+
 // vid.addEventListener('ended', function()
 // {
 // // only functional if "loop" is removed
@@ -14,7 +15,33 @@ var endText = document
 //     vidFade();
 // });
 
-document.getElementById('myVideo').addEventListener('ended',endHandler);
+bgvid.addEventListener('ended',endHandler);
+bgvid.addEventListener('loadstart',loadingPageDisplay);
+bgvid.addEventListener('loadeddata',loadingPageEnd);
+
+
+function loadingPageDisplay(e)
+{
+    console.log("loading");
+    options = document.querySelectorAll(".navigation")
+    for (var i = 0, len = options.length; i < len; i++)
+    {
+        options[i].style.display = "none";
+    }
+}
+
+function loadingPageEnd(e)
+{
+    console.log("loading end");
+    options = document.querySelectorAll(".navigation");
+    for (var i = 0, len = options.length; i < len; i++)
+    {
+        options[i].style.display = "block";
+    }
+    document.getElementById("loading_page").style.display="none";
+
+}
+
 function endHandler(e) {
     bgvid.pause();
 

@@ -36,7 +36,7 @@ video {
     transition: 1s opacity;
     opacity:1;
 }
-#backgroundImage{
+.backgroundImage{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -48,7 +48,7 @@ video {
     transform: translateX(-50%) translateY(-50%);
     background-size: cover;
     transition: 1s opacity;
-    opacity:.5;
+    opacity:1;
 }
 .imageSurface{
     opacity: 1;
@@ -80,6 +80,9 @@ video {
     z-index: 5;
 }
 
+.navigation{
+    display: none;
+}
 #brochure{
     left:9%;
 }
@@ -91,6 +94,26 @@ video {
     left:76%;
 }
 
+#loading_gif{
+    position: absolute;
+    height: auto;
+    width: auto;
+    max-width: 40%;
+    max-height: 40%;
+    top:55%;
+    /*bottom: 46%;*/
+    /*left:31%;*/
+    z-index: 5;
+    left:42%;
+}
+
+
+#loading_page{
+    background-image:    url("images/Loading Page Background-01.png");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
 
 /*.animate{*/
 
