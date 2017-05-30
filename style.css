@@ -67,9 +67,9 @@ video {
     position: absolute;
     height: auto;
     width: auto;
-    max-width: 57%;
+    max-width: 50%;
     /*max-height: 30%;*/
-    top:24%;
+    top:20%;
     left:26%;
     z-index: 4;
     transition: transform .7s ease-in-out;
@@ -90,8 +90,6 @@ video {
     /*bottom: 46%;*/
     left:13%;
     z-index: 13;
-    /*transition: transform .7s ease-in-out;*/
-    /*transform :*/
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -ms-transition: opacity 1s ease-in-out;
@@ -146,6 +144,25 @@ video {
     background-position: center center; 
 }
 
+#overlayImage{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    opacity: 0.7;
+    /*-webkit-transition: opacity .1s ease-in-out;*/
+    /*-moz-transition: opacity .1s ease-in-out;*/
+    /*-ms-transition: opacity .1s ease-in-out;*/
+    /*-o-transition: opacity .1s ease-in-out;*/
+    /*transition: opacity .1s ease-in-out;*/
+
+}
 /*.animate{*/
 
 /*}*/
