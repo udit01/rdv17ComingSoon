@@ -3,19 +3,9 @@
  */
 
 
-var vid = document.getElementById("bgvid");
+var bgvid = document.getElementById("bgvid");
 var bgimg = document.getElementById("backgroundImage");
-
-
-function Front() {
-    vid.classList.add("videoFade");
-    bgimg.classList.add("imageSurface");
-}
-function renderIcons() {
-    //shift the rdv logo upwards and enter text here
-
-}
-
+var endText = document
 // vid.addEventListener('ended', function()
 // {
 // // only functional if "loop" is removed
@@ -26,9 +16,8 @@ function renderIcons() {
 
 document.getElementById('myVideo').addEventListener('ended',endHandler);
 function endHandler(e) {
-    vid.pause();
-    imageFront();
-    renderIcons();
+    bgvid.pause();
+
 }
 
 
