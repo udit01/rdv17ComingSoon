@@ -36,6 +36,7 @@ function endHandler(e) {
     console.log("ended function is called");
     // rdvLogo.style.display = "block";
     $("#overlayImage").css("opacity","0");
+    $("#endBackground").css("opacity",".8");
      $("#rdvLogo").fadeIn("slow",function () {
          //this function loaded once the animation is complete
          rdvLogo.style.transform = "translate3d(0%, -150px , 0)";
