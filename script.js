@@ -34,13 +34,28 @@ function loadingPageEnd(e) {
 
 function endHandler(e) {
     console.log("ended function is called");
-    rdvLogo.style.display = "block";
-    // rdvLogo.fadeIn;
+    // rdvLogo.style.display = "block";
+     $("#rdvLogo").fadeIn("slow",function () {
+         //this function loaded once the animation is complete
+         rdvLogo.style.transform = "translate3d(0%, -150px , 0)";
+         // $('#rdvLogo').css("transform","translate3d(0%, -150px , 0)").promise().done(function(){
+         //     alert( 'color is yellow!' );
+         //     endText.style.display = "block";
+         //
+         // // });
 
-    console.log("");
-    rdvLogo.style.top = "10%";
-    console.log("");
-    endText.style.display = "block";
+         // endText.style.display = "block";
+         //$("#endText").css("-webkit-transition","opacity 1s ease-in-out");
+         $("#endText").css("-moz-transition","opacity 1s ease-in-out");
+         $("#endText").css("-ms-transition","opacity 1s ease-in-out");
+         $("#endText").css("-o-transition","opacity 1s ease-in-out");
+         $("#endText").css("transition","opacity 1s ease-in-out");
+
+         $("#endText").css("opacity","1");
+     });
+
+    // console.log("TO make the logo fadeIn");
+    // console.log("");
 }
 
 // $(document).ready(function() {

@@ -72,20 +72,31 @@ video {
     top:24%;
     left:26%;
     z-index: 4;
-
+    transition: transform .7s ease-in-out;
 }
+/*#rdvLogo:hover{*/
+
+/*}*/
 #endText{
-    display: none;
+    /*display: none;*/
     position: absolute;
     height: auto;
     width: auto;
     margin:auto;
     max-width: 75%;
+    opacity:0;
     /*max-height: 54%;*/
     top:35%;
     /*bottom: 46%;*/
     left:13%;
     z-index: 13;
+    /*transition: transform .7s ease-in-out;*/
+    /*transform :*/
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 
 .logoBase{
