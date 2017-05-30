@@ -5,14 +5,24 @@
 
 var bgvid = document.getElementById("bgvid");
 var bgimg = document.getElementById("backgroundImage");
-var endText = document.getElementById("endText");
-var rdvLogo = document.getElementById("rdvLogo");
+// var endText = document.getElementById("endText");
+// var rdvLogo = document.getElementById("rdvLogo");
 
 
 bgvid.addEventListener('loadstart', loadingPageDisplay);
 bgvid.addEventListener('loadeddata', loadingPageEnd);
-
 bgvid.addEventListener('ended', endHandler);
+
+// window.onload = function() {
+//  I HAVE REMOVED THE ONLOAD FUNCTION WHICH MAY TURN OUT TO BE A BAD DECISION
+
+    document.getElementById("contactUs").addEventListener('click', function (e) {
+        // alert("contact us is clicked");
+        $("#contactUsImage").css("display" , "block");
+        $("#contactUsImage").css("opacity" , "1");
+    });
+
+// };
 
 function loadingPageDisplay(e) {
     console.log("loading");
@@ -39,20 +49,12 @@ function endHandler(e) {
     $("#endBackground").css("opacity",".8");
      $("#rdvLogo").fadeIn("slow",function () {
          //this function loaded once the animation is complete
-         rdvLogo.style.transform = "translate3d(0%, -150px , 0)";
-         // $('#rdvLogo').css("transform","translate3d(0%, -150px , 0)").promise().done(function(){
-         //     alert( 'color is yellow!' );
-         //     endText.style.display = "block";
-         //
-         // // });
-
+         // rdvLogo.style.transform = "translate3d(0%, -140px , 0)";
+         $("#rdvLogo").css("transform" , "translate3d(0%, -140px , 0)" );
+                                                ///THE ABOVE PIXEL VALUE IS HARDCODED WHICH IS A BAD THING
          // endText.style.display = "block";
-
          $("#endText").css("opacity","1");
      });
-
-    // console.log("TO make the logo fadeIn");
-    // console.log("");
 }
 
 // $(document).ready(function() {
