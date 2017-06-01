@@ -111,17 +111,21 @@ video {
     position: absolute;
     height: auto;
     /*width: auto;*/
-    width: 36%;
+    width: 30%;
     margin:auto;
     /*max-height: 30%;*/
-    top:24%;
-    left:33%;
+    top:25%;
+    left:36%;
     z-index: 4;
     transition: transform .7s ease-in-out;
 }
 /*#rdvLogo:hover{*/
 
 /*}*/
+#skipVideoText{
+    top:0%;
+    right:0%;
+}
 #endText{
     /*display: none;*/
     position: absolute;

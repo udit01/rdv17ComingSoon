@@ -16,11 +16,14 @@ bgvid.addEventListener('ended', endHandler);
 // window.onload = function() {
 //  I HAVE REMOVED THE ONLOAD FUNCTION WHICH MAY TURN OUT TO BE A BAD DECISION
 
-    document.getElementById("contactUs").addEventListener('click', function (e) {
+    document.getElementById("skipVideoText").addEventListener('click', function (e) {
         // alert("contact us is clicked");
-        $("#contactUsImage").css("display" , "block");
-        $("#contactUsImage").css("opacity" , "1");
+        // $("#contactUsImage").css("display" , "block");
+        // $("#contactUsImage").css("opacity" , "1");
+        bgvid.currentTime = 17.2;
+        //the above time is hardcoded which is a very bad thing but i couldnt find a end time function
     });
+
 
 // };
 
@@ -48,6 +51,7 @@ function endHandler(e) {
     console.log("ended function is called");
     // rdvLogo.style.display = "block";
     $("#overlayImage").css("opacity","0");
+    $("#skipVideoText").css("display","none");
     $("#endBackground").css("opacity",".8");
      $("#rdvLogo").fadeIn("slow",function () {
          //this function loaded once the animation is complete
