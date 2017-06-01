@@ -1,0 +1,38 @@
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="rdv-iitd.com/Contact_Us" resolutions="1x,2x" timestamp="1496306683914">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="master_a-master.css" crc="40200871" ref="index"/>
+    <file name="index.css" crc="62375843" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="163421577" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="36584860" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="index"/>
+    <file name="jquery.watch.js" crc="104486786" ref="index"/>
+    <file name="require.js" crc="244322403" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="u188-14.png" crc="85696050" ref="index"/>
+    <file name="u188-14_2x.png" crc="509491220" ref="index"/>
+    <file name="rdv.gif" crc="167002393" seo="true" ref="index"/>
+    <file name="rdv_2x.gif" crc="167002393" seo="true" ref="index"/>
+    <file name="u133-10.png" crc="85794682" ref="index"/>
+    <file name="u133-10_2x.png" crc="47803055" ref="index"/>
+    <file name="u191-13.png" crc="4230432379" ref="index"/>
+    <file name="u191-13_2x.png" crc="138689169" ref="index"/>
+    <file name="u176-5.png" crc="4194319613" ref="index"/>
+    <file name="u176-5_2x.png" crc="4048301939" ref="index"/>
+    <file name="facebook-01.png" crc="3765241513" seo="true" ref="index"/>
+    <file name="facebook-01_2x.png" crc="3906779146" seo="true" ref="index"/>
+    <file name="twitter button-01.png" crc="464885161" seo="true" ref="index"/>
+    <file name="twitter button-01_2x.png" crc="394697448" seo="true" ref="index"/>
+    <file name="instagram-01.png" crc="4221114152" seo="true" ref="index"/>
+    <file name="instagram-01_2x.png" crc="4026227113" seo="true" ref="index"/>
+    <file name="background.jpg" crc="3988109213" ref="index"/>
+    <file name="u194-11.png" crc="57394122" ref="index"/>
+    <file name="u194-11_2x.png" crc="234832296" ref="index"/>
+  </folder>
+  <file name="index.html" crc="74328823" seo="true" mt="1496306597389" redirect="true"/>
+</manifest>
