@@ -39,8 +39,10 @@ function loadingPageEnd(e) {
         options[i].style.display = "block";
     }
     document.getElementById("loading_page").style.display = "none";
-
+    $("#overlayImage").css("opacity",".7");
 }
+
+//now the video ends
 
 function endHandler(e) {
     console.log("ended function is called");
