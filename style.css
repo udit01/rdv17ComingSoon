@@ -1,5 +1,4 @@
 body {
-
     /*background-image: url(images/Reference-01.png);*/
     /*To change the above line afterwords to give only the background*/
     background-position: center center;
@@ -7,11 +6,18 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: lightblue;
+    height: 100%;
+    overflow: hidden;
     margin: 0;
     background: #000;
     z-index: 0;
 }
-
+html{
+    height: 100%;
+}
+.containerClass{
+    overflow: hidden;
+}
 .horizontalCenter{
     width: 100%;
     margin:auto;
@@ -142,7 +148,7 @@ video {
     width: auto;
     max-width: 21%;
     max-height: 24%;
-    top:79%;
+    top:80%;
     /*bottom: 46%;*/
     /*left:31%;*/
     z-index: 5;
@@ -167,7 +173,19 @@ video {
     width: auto;
     max-width: 40%;
     max-height: 40%;
-    top:55%;
+    top:50%;
+    /*bottom: 46%;*/
+    /*left:31%;*/
+    z-index: 5;
+    left:42%;
+}
+#loading_text{
+    position: absolute;
+    height: auto;
+    width: auto;
+    max-width: 40%;
+    max-height: 40%;
+    top:50%;
     /*bottom: 46%;*/
     /*left:31%;*/
     z-index: 5;
