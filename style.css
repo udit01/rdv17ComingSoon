@@ -42,7 +42,7 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    /*background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;*/
     background-size: cover;
     transition: 1s opacity;
     opacity:1;
@@ -74,11 +74,11 @@ video {
     transform: translateX(-50%) translateY(-50%);
     background-size: cover;
     opacity:0;
-    -webkit-transition: opacity .1s ease-in-out;
-    -moz-transition: opacity .1s ease-in-out;
-    -ms-transition: opacity .1s ease-in-out;
-    -o-transition: opacity .1s ease-in-out;
-    transition: opacity .1s ease-in-out;
+    -webkit-transition: opacity .7s ease-in-out;
+    -moz-transition: opacity .7s ease-in-out;
+    -ms-transition: opacity .7s ease-in-out;
+    -o-transition: opacity .7s ease-in-out;
+    transition: opacity .7s ease-in-out;
 }
 #contactUsImage{
     position: fixed;
@@ -97,7 +97,7 @@ video {
     -moz-transition: opacity 1s ease-in-out;
     -ms-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1 s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 .imageSurface{
     opacity: 1;
@@ -111,11 +111,11 @@ video {
     position: absolute;
     height: auto;
     /*width: auto;*/
-    width: 50%;
+    width: 36%;
     margin:auto;
     /*max-height: 30%;*/
-    top:20%;
-    left:26%;
+    top:24%;
+    left:33%;
     z-index: 4;
     transition: transform .7s ease-in-out;
 }
@@ -171,30 +171,30 @@ video {
     position: absolute;
     height: auto;
     width: auto;
-    max-width: 40%;
-    max-height: 40%;
-    top:50%;
+    max-width: 45%;
+    max-height: 45%;
+    top:45%;
     /*bottom: 46%;*/
     /*left:31%;*/
     z-index: 5;
-    left:42%;
+    left:37%;
 }
 #loading_text{
     position: absolute;
     height: auto;
     width: auto;
-    max-width: 40%;
-    max-height: 40%;
-    top:50%;
+    max-width: 20%;
+    /*max-height: 30%;*/
+    top:78%;
     /*bottom: 46%;*/
     /*left:31%;*/
     z-index: 5;
-    left:42%;
+    left:39%;
 }
 
 
 #loading_page{
-    background-image:    url("images/Loading Page Background-01.png");
+    background-image:    url("images/Loading Page Background-01.jpg");
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 
