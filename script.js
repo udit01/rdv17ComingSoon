@@ -55,8 +55,8 @@ function endHandler(e) {
     $("#endBackground").css("opacity",".8");
      $("#rdvLogo").fadeIn("slow",function () {
          //this function loaded once the animation is complete
-         // rdvLogo.style.transform = "translate3d(0%, -140px , 0)";
-         $("#rdvLogo").css("transform" , "translate3d(0%, -140px , 0)" );
+         // rdvLogo.style.transform = "translate3d(0%, -(140/768) , 0)";
+         $("#rdvLogo").css("transform" , "translate3d(0%, -(140/768) , 0)" );
                                                 ///THE ABOVE PIXEL VALUE IS HARDCODED WHICH IS A BAD THING
          // endText.style.display = "block";
          $("#endText").css("opacity","1");
